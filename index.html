@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <style>
+    body {position: relative;}
+    .attribution {color: #000;font-size:11px;text-align:center;position:absolute;bottom:0;left:0;right:0;}
+    .attribution a {color:hsl(228,45%,44%);}
+  </style>
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="logo">
+      <img src="./images/logo.svg" alt="logo"/>
+    </div>
+    <header>
+      <h1 class="title">We are launching <b>soon!</b></h1>
+      <p class="description">Subscribe and get notified</p>
+    </header>
+    <main>
+      <form class="email-button-wrapper">
+        <div class="email-wrapper">
+          <input id="emailInput" placeholder="Your email address..." type="email"/>
+          <div class="error-message">Whoops! It looks like you forgot to add your email</div>
+          <div class="error-message">Please provide a valid email address</div>
+        </div>
+        <div class="button-wrapper">
+          <button
+            type="submit"
+            id="submitButton"
+          >
+            Notify Me
+          </button>
+        </div>
+      </form>
+      <div class="img-wrapper">
+        <img src="./images/illustration-dashboard.png" alt="illustration-dashboard">
+      </div>
+    </main>
+    <footer>
+      <div class="social-media"><!-- <a> tags are put like that to prevent the whitespace added between inline-elements -->
+        <a href="#" class="social-media-link">
+          <i class="fab fa-facebook-f"></i>
+        </a><a
+        href="#" class="social-media-link">
+          <i class="fab fa-twitter"></i>
+        </a><a 
+        href="#" class="social-media-link">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <p class="copyright">
+        &copy; Copyright Ping. All rights reserved.
+      </p>
+    </footer>  
+  </div>
+
+  <div class="attribution">
+    Challenge by <a target="_blank" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a target="_blank" href="https://MannBell.github.io/Portfolio">MannBell</a>.
+  </div>
+
+  <!-- Javascript -->
+  <script src="./script.js"></script>
+</body>
+</html>
